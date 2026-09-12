@@ -3,7 +3,7 @@
 Para este projeto foram escolhidas 3 unidades de negócio (dimensões) para realizar a análise das despesas que foram: Item Elemento, Item Categoria e Unidade Gestora (Orgão), para cada unidade de negocio foi análisado os valores de despesas empenhados e valores de despesas pagos.
 
 # Análise Exploratória
-O primeiro passo a ser realizado foi fazer a análise exploratória dos dados de origem atraves de consultas SQL no PgAdmin(PostgreSQL) descritas no arquivo análise_exploratoria.sql, esse passo teve como finalidade:
+O primeiro passo a ser realizado foi fazer a análise exploratória dos dados de origem atraves de consultas SQL no PgAdmin(PostgreSQL) descritas no arquivo analise_exploratoria.sql, esse passo teve como finalidade:
 - Verificar o total de campos preenchidos no banco de dados tanto para as datas, descrições, códigos de cada unidade de negócio (dimensão), valores de empenho e pagamento e seus códigos e quantos desses campos estavam nulos ("null").
 - Verificar se havia algum erro nas datas, descrições, valores e códigos como por exemplo descrições incompletas, erradas, com espaços, descrições desatualizadas, datas erradas, casos de duplicidade tanto para descrições como para códigos.
 - Verificação de quantidades de cada unidade de negócio e sua descrição em cada ano , essa consulta foi feita com o intuito de verificar qual a descrição mais atual da unidade de negócio e que tem maior quantidade de registros.
